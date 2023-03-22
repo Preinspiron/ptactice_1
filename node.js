@@ -14,4 +14,19 @@
 Проверь выводится ли в консоль то же значение на лайв странице что и локально выводилось */
 
 require('dotenv').config()
-// console.log(process.env)
+console.log(process.env)
+
+// Octokit.js
+// https://github.com/octokit/core.js#readme
+// const octokit = new Octokit({
+//   auth: 'YOUR-TOKEN'
+// })
+
+// await octokit.request('GET /orgs/{org}/actions/secrets', {
+//   org: 'ORG',
+//   headers: {
+//     'X-GitHub-Api-Version': '2022-11-28'
+//   }
+// })
+
+// console.log(octokit);
